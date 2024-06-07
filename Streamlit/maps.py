@@ -3,8 +3,8 @@ import geopandas as gpd
 import branca.colormap as cm
 
 
-regions_pools = gpd.read_file('regions_pools.json')
-regions_swimming = gpd.read_file('regions_swimming.json')
+regions_pools = gpd.read_file('Streamlit/regions_pools.json')
+regions_swimming = gpd.read_file('Streamlit/regions_swimming.json')
 
 
 def make_interactive_map_1(m):
